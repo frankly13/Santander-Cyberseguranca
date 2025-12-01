@@ -1,2 +1,2 @@
-# Santander-Cyber seguranç 2
+# Santander-Cyber segurança 2
 Repositório com resposta aos desafios.
